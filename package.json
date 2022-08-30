@@ -1,0 +1,41 @@
+{
+  "name": "hexterrain",
+  "version": "1.0.0",
+  "description": "Procedual terrain made of Hexagons.",
+  "keywords": [
+    "three.js",
+    "react-three-fiber"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-spring/three": "^9.4.1",
+    "@react-three/drei": "7.0.0",
+    "@react-three/fiber": "7.0.0",
+    "@react-three/postprocessing": "2.1.2",
+    "detect-gpu": "4.0.4",
+    "immer": "^9.0.7",
+    "leva": "0.9.18",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.135.0",
+    "three-custom-shader-material": "2.4.3",
+    "three-noise": "1.1.1",
+    "zustand": "^3.6.8"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
